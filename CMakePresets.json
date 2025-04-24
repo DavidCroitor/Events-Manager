@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "configurePresets": [
+    {
+      "name": "mingw",
+      "displayName": "MinGW",
+      "generator": "MinGW Makefiles",
+      "binaryDir": "${sourceDir}/build"
+    }
+  ]
+}

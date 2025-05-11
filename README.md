@@ -1,56 +1,43 @@
 # Event Manager
 
-A Qt-based application for managing events with both admin and user interfaces.
+Events Manager is a Qt-based application designed to simplify the process of managing events for both administrators and users. Whether you're organizing events, managing registrations, or browsing for events to attend, Events Manager provides an intuitive interface for the user.
 
-## Features
+## Overview
 
-- Event creation, modification, and deletion
-- Administrative interface for event management
-- User interface for browsing and registering for events
-- Sorting and filtering capabilities for events
-- File-based persistence for storing event data
+The application offers the following capabilities:
 
-## Technical Details
-
-- Built with C++ and Qt 6.9.0
-- Uses CMake as the build system
-- Follows Model-View-Controller architecture
-- Implements custom event models and views
-
-## Building the Project
-
-This project requires:
-- Qt 6.9.0
-- MinGW compiler
-- CMake 3.28 or higher
-
-### Build Steps
-
-1. Clone the repository
-2. Navigate to the project directory
-3. Configure with CMake:
-   ```
-   cmake --preset mingw
-   ```
-4. Build the project:
-   ```
-   cmake --build build
-   ```
-5. Run the application:
-   ```
-   ./build/EventManager.exe
-   ```
+- **Manage Events**: Create, modify, and delete events with ease.
+- **Administrative Tools**: Access a powerful admin interface for event management.
+- **User-Friendly Browsing**: Browse events and register seamlessly from the user interface.
+- **Filter & Sort**: Efficiently find events with sorting and filtering options.
+- **Data Persistence**: Keep your event data safe with file-based storage.
 
 ## Project Structure
 
-- `Header Files/` - Contains all header files
-- `Source Files/` - Contains all implementation files
-- Main components:
-  - Event data model
-  - Repository for data access
-  - Service layer for business logic
-  - UI components for admin and user interfaces
+The project follows the Model-View-Controller (MVC) architecture and includes the following components:
 
-## License
+- **Backend**
+  - Event Repository: Manages data access and persistence.
+  - Business Logic: Handles operations and rules for managing events.
+- **Frontend**
+  - Admin Interface: Tools for administrators to manage events.
+  - User Interface: A convenient way for users to browse and register for events.
+- **Core**
+  - Event Models: Custom models and views for handling event data.
 
-This project is for educational purposes.
+## Technologies Used
+
+- C++
+- Qt 6.9.0
+- CMake 3.28 or higher
+
+## Features
+
+- Create, modify, and delete events effortlessly.
+- Administrative interface for managing event details.
+- User-friendly interface for browsing and registering for events.
+- Sort and filter events for quick access.
+- File-based data storage for event persistence.
+
+## Other
+This project was developed as part of a faculty assignment.
